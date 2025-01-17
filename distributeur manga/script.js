@@ -105,7 +105,7 @@ BTN_VALID.addEventListener("click", () => {
         case "2":
             if(parseInt(STOCK_BERSERK.innerText) > 0)
             {
-                IMG_BONK.src = "./img/berserk.png";
+                IMG_BONK.src = "./assets/img/berserk.png";
                 STOCK_BERSERK.innerText--;
             }
             else {
@@ -115,7 +115,7 @@ BTN_VALID.addEventListener("click", () => {
         case "3":
             if(parseInt(STOCK_NARUTO.innerText) > 0)
             {
-                IMG_BONK.src = "./img/naruto.png";
+                IMG_BONK.src = "./assets/img/naruto.png";
                 STOCK_NARUTO.innerText--;
             }
             else {
@@ -125,7 +125,7 @@ BTN_VALID.addEventListener("click", () => {
         case "4":
             if(parseInt(STOCK_HXH.innerText) > 0)
             {
-                IMG_BONK.src = "./img/hxh.png";
+                IMG_BONK.src = "./assets/img/hxh.png";
                 STOCK_HXH.innerText--;
             }
             else {
@@ -135,7 +135,7 @@ BTN_VALID.addEventListener("click", () => {
         case "5":
             if(parseInt(STOCK_ONEPIECE.innerText) > 0)
             {
-                IMG_BONK.src = "./img/onepiece.png";
+                IMG_BONK.src = "./assets/img/onepiece.png";
                 STOCK_ONEPIECE.innerText--;
             }
             else {
@@ -145,7 +145,7 @@ BTN_VALID.addEventListener("click", () => {
         case "6":
             if(parseInt(STOCK_DEATHNOTE.innerText) > 0)
             {
-                IMG_BONK.src = "./img/deathnote.png";
+                IMG_BONK.src = "./assets/img/deathnote.png";
                 STOCK_DEATHNOTE.innerText--;
             }
             else {
@@ -155,7 +155,7 @@ BTN_VALID.addEventListener("click", () => {
         case "7":
             if(parseInt(STOCK_KINGDOM.innerText) > 0)
             {
-                IMG_BONK.src = "./img/kingdom.png";
+                IMG_BONK.src = "./assets/img/kingdom.png";
                 STOCK_KINGDOM.innerText--;
             }
             else {
@@ -165,7 +165,7 @@ BTN_VALID.addEventListener("click", () => {
         case "8":
             if(parseInt(STOCK_SEVENDS.innerText) > 0)
             {
-                IMG_BONK.src = "./img/sevends.png";
+                IMG_BONK.src = "./assets/img/sevends.png";
                 STOCK_SEVENDS.innerText--;
             }
             else {
@@ -175,7 +175,7 @@ BTN_VALID.addEventListener("click", () => {
         case "9":
             if(parseInt(STOCK_DEMONSLAYER.innerText) > 0)
             {
-                IMG_BONK.src = "./img/demonslayer.png";
+                IMG_BONK.src = "./assets/img/demonslayer.png";
                 STOCK_DEMONSLAYER.innerText--;
             }
             else {
@@ -186,7 +186,7 @@ BTN_VALID.addEventListener("click", () => {
         case "10":
             if(parseInt(STOCK_DBZ.innerText) > 0)
             {
-                IMG_BONK.src = "./img/dbz.png";
+                IMG_BONK.src = "./assets/img/dbz.png";
                 STOCK_DBZ.innerText--;
             }
             else {
@@ -197,7 +197,7 @@ BTN_VALID.addEventListener("click", () => {
         case "11":
             if(parseInt(STOCK_ONEPM.innerText) > 0)
             {
-                IMG_BONK.src = "./img/onepm.png";
+                IMG_BONK.src = "./assets/img/onepm.png";
                 STOCK_ONEPM.innerText--;
             }
             else {
@@ -208,7 +208,7 @@ BTN_VALID.addEventListener("click", () => {
         case "12":
             if(parseInt(STOCK_JJK.innerText) > 0)
             {
-                IMG_BONK.src = "./img/jjk.png";
+                IMG_BONK.src = "./assets/img/jjk.png";
                 STOCK_JJK.innerText--;
             }
             else {
