@@ -99,7 +99,7 @@ section.ville-section {
   justify-content: center; 
   height: 100%;
   overflow-y: auto;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/paysage.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/images/paysage.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; 
