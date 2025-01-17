@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pierre - Papier - Ciseaux</title>
+    <link rel="stylesheet" href="./styles/global.css">
+    <script src="./scripts/main.js" defer></script>
+</head>
+<body>
+   <main>
+        <h1>Pierre | Feuille | Ciseaux </h1>
+        <div class="game">
+            <div class="player">
+                <h2>Vous</h2>
+                <div id="player-hand" class="cards">
+                    <img src="./images/pierre.jpg" alt="pierre">
+                    <img src="./images/feuille.jpg" alt="feuille">
+                    <img src="./images/ciseaux.jpg" alt="ciseaux">
+                </div>
+                <p id="score-player" class="score">0</p>
+            </div>
+
+            <div class="resultat">
+                <p>Cliquez sur une image pour jouer</p>
+            </div>
+
+            <div class="player">
+                <h2>Ordinateur</h2>
+                <div class="cards">
+                    <img id="computer-hand" src="./images/waiting.jpg" alt="en attente">
+                </div>
+                <p id="score-computer" class="score">0</p>
+            </div>
+        </div>
+        <div class="stats">
+            <div class="stats-1">
+                <h2>Statistiques :</h2>
+                <p>Vous : <span id="games-player">0</span></p>
+                <p>Ordinateur : <span id="games-computer">0</span></p>
+            </div>
+            <div id="replay" class="stats-2">
+                <img src="./images/replay.png" alt="rejouer">
+                <p>Rejouer</p>
+            </div>
+            <div id="erase" class="stats-2">
+                <img src="./images/erase.png" alt="erase">
+                <p>Effacer</p>
+            </div>
+        </div>
+   </main> 
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villes</title>
+
+    <link rel="stylesheet" href="./ville.css">
+    <script defer src="./ville.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.2/axios.min.js"></script>
+</head>‹
+
+<body>
+
+    <div class="nav-barre">
+       <div class="contenu-nav">
+        <h1>Cities cards</h1>
+
+        <div class="continent">
+                <label for="continent-select">Sélectionnez un continent :</label>
+                <select id="continent-select">
+                    <option value="all">Tous</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Asia">Asie</option>
+                    <option value="North America">Amérique du Nord</option>
+                    <option value="South America">Amérique du Sud</option>
+                </select>
+            </div>
+       </div>
+    </div>
+
+
+    <section class="ville-section">
+        <div class="espace">
+            <div id="cards-container" class="cards-container"></div>
+        </div>
+    </section>
+
+
+    <!-- Grande div pour afficher les données météorologiques -->
+    <div id="large-map-container" class="large-map-container">
+        <button id="close-button">Fermer</button>
+        <div id="large-map-content"></div>
+    </div>
+
+    <footer class="footer-section"></footer>
+
+</body>
+
+</html>

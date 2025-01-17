@@ -1,0 +1,137 @@
+@font-face {
+    src: url("./Lidl.ttf");
+    font-family: "Lidl";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    height: 10%;
+    width: 100%;
+    background-color: #004FAB;
+    color : #FFF000;
+    text-transform: uppercase;
+    font-family: 'Lidl', sans-serif;
+    letter-spacing: 0.5rem;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+header span {
+    color : #E7030C;
+    
+}
+
+main {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculette {
+    width: 40%;
+    height: 70%;
+    background-color: #004FAB;
+    border-radius: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.numbers {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.numbers input {
+    width: 45%;
+    height: 50%;
+    color : #004FAB;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    text-align: right;
+    border-radius: 0.5rem;
+    border : none;     
+}
+
+.operators {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.operators button {
+    width: 15%;
+    background-color: #FFF000;
+    color: #004FAB;
+    font-size: x-large;
+    font-family: 'Lidl', sans-serif;
+
+
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+
+    -webkit-box-shadow:inset 0px 0px 0px 10px #E7030C;
+    -moz-box-shadow:inset 0px 0px 0px 10px #E7030C;
+    box-shadow:inset 0px 0px 0px 3px #E7030C;
+
+}
+
+.operators button:hover {
+    background-color: #E7030C;
+    color: #FFF000;
+    -webkit-box-shadow:inset 0px 0px 0px 10px #FFF000;
+    -moz-box-shadow:inset 0px 0px 0px 10px #FFF000;
+    box-shadow:inset 0px 0px 0px 3px #FFF000;
+
+}
+
+#result {
+    width: 80%;
+    height: 20%;
+    background-color: white;
+    color: #004FAB;
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.sponso {
+    position: absolute;
+    bottom: 15%;
+    right: 3%;
+
+    font-size: small;
+    color :#004FAB;
+}
+
+.sponso img {
+    width: 50px;
+}

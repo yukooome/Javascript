@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <script src="js.js" defer></script>
+    <title>Master Mind</title>
+</head>
+<body>
+    <div class="nav">
+        MasterMind
+    </div>
+
+    <div class="leftpanel"> Le jeu de société "Mastermind" est un jeu de logique où deux joueurs s'affrontent : l'un crée un code secret composé d'une combinaison de couleurs et l'autre joueur doit deviner ce code en un nombre limité de tentatives.
+
+        Le jeu se compose traditionnellement d'un plateau avec des rangées pour placer les pions de couleur et des rangées pour les indices de correction. Les couleurs sont cachées à la vue du joueur qui devine et celui-ci doit proposer une combinaison de pions de couleur dans une rangée. Le joueur qui connaît le code secret doit alors donner des indications sur la justesse de chaque couleur et de sa position dans la combinaison proposée.
+        
+        Les indices fournis sont généralement sous la forme de pions blancs et rouges : un pion blanc signifie qu'une couleur est correcte mais mal placée, tandis qu'un pion rouge indique qu'une couleur est à la bonne place. À partir de ces indices, le joueur doit déduire progressivement quelle est la combinaison secrète.
+        
+        Le Mastermind est apprécié pour son aspect de déduction logique et de stratégie, ainsi que pour son caractère compétitif entre les deux joueurs. Il a également été adapté en versions informatiques et en jeux en ligne, demeurant populaire depuis sa création pour ses défis intellectuels et son accessibilité à tous les âges.</div>
+    <div class="board">
+        <div class="top">
+            <div class="boutton">
+                <button id="crack-btn" class="playbutton">JOUER</button>
+            <button id="crack-btn" class="playbutton">SUPPRIMER</button>
+            </div>
+            <div id="div-select-color" class="secret-code"></div>
+        </div>
+        <div class="playground"></div>
+    </div>
+</body>
+</html>
