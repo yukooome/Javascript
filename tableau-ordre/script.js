@@ -20,7 +20,7 @@ console.log( stringToReverse.split('').reverse().join('')  );
 const contacts = [
     { firstname : 'Maissaa', lastname : 'ElB', birthdate : new Date('1989-10-16'), phone : '0478 78 78 78'},
     { firstname : 'Amandine', lastname : 'Cpc', birthdate : new Date('1989-11-1'), phone : '0477 77 77 77'},
-   
+    { firstname : 'Sounya', lastname : 'Kpj', birthdate : new Date('1996-10-15'), phone : '0476 76 76 76'},
     { firstname : 'Ayoub', lastname : 'Nhi', birthdate : new Date('1997-10-18'), phone : '0472 45 76 78'},
     { firstname : 'schek', lastname : 'phpo', birthdate : new Date('1997-10-18'), phone : '0472 45 36 95'},
     { firstname : 'Cece', lastname : 'ole', birthdate : new Date('1997-10-18'), phone : '0472 44 76 95'},
