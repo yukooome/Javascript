@@ -26,10 +26,9 @@ section.ville-section {
   z-index: 10;
   box-shadow: 0rem 0.2rem 0.75rem;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: center; /* Centre le contenu verticalement */
+  justify-content: flex-start; /* Aligne le contenu à gauche */
   color: #000000;
-  font-size: 1.8rem;
 }
 
 .nav-barre .contenu-nav {
@@ -39,10 +38,18 @@ section.ville-section {
 }
 
 .nav-barre h1 {
+  margin-left: 50px; /* Un peu d'espace à gauche */
+  font-size: 4vw;  /* Taille dynamique */
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-align: left; /* Aligne le texte à gauche */
+  display: flex;
+  align-items: center; /* Centre le texte verticalement */
+  height: 100%; /* S'assure que le h1 prend toute la hauteur disponible */
   width: 100%;
-  margin-left: 50px;
 }
 
+/* Continents et sélecteur */
 .continent {
   width: 100%;
   display: flex;
@@ -77,7 +84,6 @@ section.ville-section {
   justify-content: center;
   height: 100%;
   overflow-y: auto;
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/images/paysage.png); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
