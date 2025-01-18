@@ -46,7 +46,7 @@ section.ville-section {
   display: flex;
   align-items: center; /* Centre le texte verticalement */
   height: 100%; /* S'assure que le h1 prend toute la hauteur disponible */
-  width: auto; /* Évite que le h1 prenne toute la largeur */
+  width: 100%;
 }
 
 /* Continents et sélecteur */
