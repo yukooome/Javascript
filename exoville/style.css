@@ -38,7 +38,7 @@ section.ville-section {
 }
 
 .nav-barre h1 {
-  margin-left: 50px; /* Un peu d'espace à gauche */
+  margin-left: 20px; /* Espacement réduit */
   font-size: 4vw;  /* Taille dynamique */
   color: rgb(0, 0, 0);
   font-weight: bold;
@@ -46,7 +46,7 @@ section.ville-section {
   display: flex;
   align-items: center; /* Centre le texte verticalement */
   height: 100%; /* S'assure que le h1 prend toute la hauteur disponible */
-  width: 100%;
+  width: auto; /* Évite que le h1 prenne toute la largeur */
 }
 
 /* Continents et sélecteur */
@@ -54,7 +54,7 @@ section.ville-section {
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  margin-right: 50px;
+  margin-right: 20px; /* Réduit la marge pour mobile */
   align-items: center;
   font-size: 16px;
 }
